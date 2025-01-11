@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 import { DevlyIconComponent } from '../devly-icon/devly-icon.component';
 import { RouterLink } from '@angular/router';
-import { LinkButtonComponent } from '../link-button/link-button.component';
 
 @Component({
   selector: 'app-navbar',
   standalone: true,
-  imports: [DevlyIconComponent, RouterLink, LinkButtonComponent],
+  imports: [DevlyIconComponent, RouterLink],
   templateUrl: './navbar.component.html',
   styles: `
   li{
