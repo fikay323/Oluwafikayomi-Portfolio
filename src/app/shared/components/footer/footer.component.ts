@@ -11,7 +11,6 @@ import { FileIconComponent } from '../file-icon/file-icon.component';
   imports: [
     RouterLink,
     GithubIconComponent,
-    XIconComponent,
     LinkedinIconComponent,
     FileIconComponent,
   ],
