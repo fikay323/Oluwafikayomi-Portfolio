@@ -23,12 +23,12 @@ import { FileIconComponent } from '../file-icon/file-icon.component';
         <section class="flex items-center gap-3">
           <div class="avatar"></div>
           <a routerLink="/" class="text-lg font-semibold"
-            >Uriel Spiridione | Uspiri</a
+            >Oluwafikayomi Fagbenro | Fikayo</a
           >
         </section>
         <section class="media flex items-center gap-4">
           <a
-            href="https://github.com/USpiri/"
+            href="https://github.com/fikay323"
             target="_blank"
             title="Github Page"
             rel="noopener noreferrer"
@@ -36,7 +36,7 @@ import { FileIconComponent } from '../file-icon/file-icon.component';
             <app-github-icon class="h-4" />
           </a>
           <a
-            href="https://www.linkedin.com/in/urielspiridione/"
+            href="https://www.linkedin.com/in/oluwafikayomi-fagbenro"
             target="_blank"
             title="Linkedin"
             rel="noopener noreferrer"
@@ -44,15 +44,7 @@ import { FileIconComponent } from '../file-icon/file-icon.component';
             <app-linkedin-icon class="h-4" />
           </a>
           <a
-            href="https://twitter.com/UrielSpiridione"
-            target="_blank"
-            title="X Twitter"
-            rel="noopener noreferrer"
-          >
-            <app-x-icon class="h-4" />
-          </a>
-          <a
-            href="https://cv.uspiri.com"
+            href="https://drive.google.com/file/d/1bpCxoU4TdsQR1Iew0NgdvBjoZVqbwtam/view?usp=drive_link"
             target="_blank"
             title="Uriel Spiridione Curriculum"
             rel="noopener noreferrer"
@@ -63,7 +55,7 @@ import { FileIconComponent } from '../file-icon/file-icon.component';
       </div>
       <p class="text-center text-sm">
         &copy; {{ year }}
-        <span class="font-semibold"> Uriel Spiridione</span>
+        <span class="font-semibold"> Oluwafikayomi Fagbenro</span>
       </p>
     </footer>
   `,
