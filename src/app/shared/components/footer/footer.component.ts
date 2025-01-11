@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { GithubIconComponent } from '../github-icon/github-icon.component';
-import { XIconComponent } from '../x-icon/x-icon.component';
 import { LinkedinIconComponent } from '../linkedin-icon/linkedin-icon.component';
 import { FileIconComponent } from '../file-icon/file-icon.component';
 
