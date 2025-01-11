@@ -1,8 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { BadgeComponent } from '@shared/components/badge/badge.component';
-import { ButtonComponent } from '@shared/components/button/button.component';
 import { GithubIconComponent } from '@shared/components/github-icon/github-icon.component';
-import { InfoIconComponent } from '@shared/components/info-icon/info-icon.component';
 import { LinkButtonComponent } from '@shared/components/link-button/link-button.component';
 import { LinkIconComponent } from '@shared/components/link-icon/link-icon.component';
 import { Project } from 'src/app/models/project.interface';
@@ -11,11 +9,9 @@ import { Project } from 'src/app/models/project.interface';
   selector: 'app-project',
   standalone: true,
   imports: [
-    ButtonComponent,
     LinkButtonComponent,
     GithubIconComponent,
     LinkIconComponent,
-    InfoIconComponent,
     BadgeComponent,
   ],
   template: `

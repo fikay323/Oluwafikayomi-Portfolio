@@ -2,7 +2,6 @@ import { Component, OnInit, inject } from '@angular/core';
 import { Experience } from 'src/app/models/experience.interface';
 import { ExperienceCardComponent } from '../experience-card/experience-card.component';
 import { TitleComponent } from '@shared/components/title/title.component';
-import { MainService } from '@shared/services/main.service';
 
 @Component({
   selector: 'app-experience',
@@ -21,7 +20,6 @@ import { MainService } from '@shared/services/main.service';
   `,
 })
 export class ExperienceComponent {
-  private mainService = inject(MainService);
   experiences: Experience[] = [
     {
       "company": "DTT",
@@ -34,7 +32,7 @@ export class ExperienceComponent {
       "highlights": []
     },
     {
-      "company": "Center for Developing Skills and Technology(CEST)",
+      "company": "Center for Developing Skills and Technology (CEST)",
       "location": "Oyo, Nigeria",
       "description": "Contributed to the development of dynamic and responsive web applications, leveraging HTML, CSS, and JavaScript to enhance functionality and user engagement. Played an active role in optimizing website performance, improving load times by 20%. Supported API integrations and debugging processes while maintaining a focus on clean and efficient code.",
       "position": "Front End Developer Intern",
