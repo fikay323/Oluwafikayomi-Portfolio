@@ -2,7 +2,6 @@ import { Component, OnInit, inject } from '@angular/core';
 import { Project } from 'src/app/models/project.interface';
 import { ProjectComponent } from '../project/project.component';
 import { TitleComponent } from '@shared/components/title/title.component';
-import { MainService } from '@shared/services/main.service';
 
 @Component({
   selector: 'app-projects',
@@ -21,8 +20,7 @@ import { MainService } from '@shared/services/main.service';
     </section>
   `,
 })
-export class ProjectsComponent implements OnInit {
-  private mainService = inject(MainService);
+export class ProjectsComponent {
   projects: Project[] = [
     {
       "name": "Chat App (Frontend)",
@@ -114,12 +112,4 @@ export class ProjectsComponent implements OnInit {
         ]
     }
   ]
-
-
-  ngOnInit() {
-    this.mainService.getProjects().subscribe((data) => {
-      // this.projects = data
-      console.log(this.projects)
-    });
-  }
 }

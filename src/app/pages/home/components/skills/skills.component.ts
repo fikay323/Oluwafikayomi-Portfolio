@@ -1,6 +1,5 @@
 import { Component, OnInit, inject } from '@angular/core';
 import { TitleComponent } from '@shared/components/title/title.component';
-import { MainService } from '@shared/services/main.service';
 
 @Component({
   selector: 'app-skills',
@@ -21,11 +20,26 @@ import { MainService } from '@shared/services/main.service';
     </section>
   `,
 })
-export class SkillsComponent implements OnInit {
-  private mainService = inject(MainService);
-  skills: string[] = [];
-
-  ngOnInit() {
-    this.mainService.getSkills().subscribe((data) => (this.skills = data));
-  }
+export class SkillsComponent {
+  skills: string[] = [
+    "Angular",
+    "JavaScript",
+    "TypeScript",
+    "C#",
+    "ASP.NET Core",
+    "SignalR",
+    "RxJS",
+    "Firebase",
+    "HTML",
+    "CSS",
+    "Tailwind CSS",
+    "Bootstrap",
+    "Angular Material",
+    "Node.js",
+    "SQL",
+    "Entity Framework Core",
+    "Git",
+    "Netlify",
+    "API Development"
+  ]
 }
