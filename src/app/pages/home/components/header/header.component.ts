@@ -35,9 +35,7 @@ import { LinkedinIconComponent } from '@shared/components/linkedin-icon/linkedin
           Frontend Software Engineer
         </h2>
         <p class="text-sm font-semibold text-neutral-400 md:text-base">
-          Web Developer & Design Enthusiast | Creating Elegant and Functional
-          Online Spaces | Transforming Ideas into Interactive Experiences |
-          Crafting Code with Creativity and Minimalism.
+          Angular Developer | TypeScript | ASP.NET Core | Firebase | Building Performant, Scalable Web Apps
         </p>
       </div>
       <div class="flex gap-3">
@@ -53,7 +51,7 @@ import { LinkedinIconComponent } from '@shared/components/linkedin-icon/linkedin
         >
           <app-github-icon class="h-5" />
         </app-link-button>
-        <app-link-button href="https://drive.google.com/file/d/1bpCxoU4TdsQR1Iew0NgdvBjoZVqbwtam/view?usp=drive_link" title="Curriculim Vitae">
+        <app-link-button href="https://docs.google.com/document/d/1FIQTIlwBTA09WsrSqbu-fQr76lFdqkhS/edit?usp=drive_link&ouid=109514692278853681202&rtpof=true&sd=true" title="Curriculim Vitae">
           <app-file-icon class="h-5 w-5" />
         </app-link-button>
       </div>
